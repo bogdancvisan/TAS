@@ -19,7 +19,7 @@ public class LoginPageObject {
 
 	public void loginToOutlook() {
 		driver.manage().window().maximize();
-		driver.get("https://outlook.live.com");
+		driver.get(LoginPageElements.getUrl());
 		waitAndClickElement(By.xpath(LoginPageElements.getLoginbutton()));
 		waitAndFillInput(By.id(LoginPageElements.getUserinputfieldid()), LoginPageElements.getMail());
 		waitAndClickElement(By.id(LoginPageElements.getNextbuttonid()));

@@ -7,8 +7,8 @@ public class LoginPageElements {
 	private static final String signInButton = "Sign in";
 	private static final String userInputFieldId = "i0116";
 	private static final String passInputField = "i0118";
-	private static final String mail = "bogdancorneliu05@outlook.com";
-	private static final String pass = "QAZxsw123";
+	private static final String mail = "mail@outlook.com"; // enter valid mail here
+	private static final String pass = "pass"; //valid pass
 	private static final String nextButtonId = "idSIButton9";
 
 	public static String getUrl() {
